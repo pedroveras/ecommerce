@@ -22,4 +22,6 @@ The architecture and the services are still under development, but I intend to u
  - Redis
  - MySQL
 
+## Architecture Diagram (under development)
+
 ![Architecture Diagram (under development)](documents/ecommerce_architecture.jpg?raw=true)
