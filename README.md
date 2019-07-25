@@ -1,6 +1,8 @@
+
 # ecommerce
 
-  
+This is a microservice architecture example for a ecommerce that sells Geek Shirts.
+The architecture and the services are still under development, but I intend to use the stack below.   
 
 ## Stack
 
@@ -20,4 +22,4 @@
  - Redis
  - MySQL
 
-## Services description
+![Architecture Diagram (under development)](documents/ecommerce_architecture.jpg?raw=true)
