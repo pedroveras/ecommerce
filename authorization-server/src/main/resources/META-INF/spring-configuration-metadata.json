@@ -1,0 +1,38 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.geekshirts.authorizationserver.jwt.config.props.SecurityProperties",
+      "name": "security",
+      "type": "com.geekshirts.authorizationserver.jwt.config.props.SecurityProperties"
+    },
+    {
+      "sourceType": "com.geekshirts.authorizationserver.jwt.config.props.SecurityProperties",
+      "name": "security.jwt",
+      "sourceMethod": "getJwt()",
+      "type": "ccom.geekshirts.authorizationserver.jwt.config.props.SecurityProperties$JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.geekshirts.authorizationserver.jwt.config.props.SecurityProperties$JwtProperties",
+      "name": "security.jwt.key-pair-alias",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.geekshirts.authorizationserver.jwt.config.props.SecurityProperties$JwtProperties",
+      "name": "security.jwt.key-pair-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.geekshirts.authorizationserver.jwt.config.props.SecurityProperties$JwtProperties",
+      "name": "security.jwt.key-store",
+      "type": "org.springframework.core.io.Resource"
+    },
+    {
+      "sourceType": "com.geekshirts.authorizationserver.jwt.config.props.SecurityProperties$JwtProperties",
+      "name": "security.jwt.key-store-password",
+      "type": "java.lang.String"
+    }
+  ]
+}
